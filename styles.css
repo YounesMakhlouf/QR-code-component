@@ -4,8 +4,8 @@
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
 
-    --step-0: clamp(0.94rem, calc(0.92rem + 0.09vw), 1.00rem);
-    --step-1: clamp(1.17rem, calc(1.14rem + 0.12vw), 1.25rem);
+    --step-0: clamp(0.94rem, calc(0.89rem + 0.19vw), 1.06rem);
+    --step-1: clamp(1.25rem, calc(1.16rem + 0.38vw), 1.50rem);
 }
 
 *, *::after, *::before {
@@ -34,10 +34,6 @@ img {
     height: auto
 }
 
-div {
-    padding: 1rem 1rem 1.5rem;
-}
-
 #lead {
     font-size: var(--step-1);
     font-weight: bold;
@@ -55,8 +51,14 @@ div {
     text-align: center;
     border-radius: 1rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
+    padding: 1rem 1rem 2.5rem;
+
 }
 
 .flow > * + * {
     margin-top: var(--flow-space, 1em);
+}
+
+div{
+    padding-inline: 0.5rem;
 }
