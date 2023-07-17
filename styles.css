@@ -34,7 +34,8 @@ img {
     height: auto
 }
 
-#lead {
+h1 {
+    --flow-space: 1.5em;
     font-size: var(--step-1);
     font-weight: bold;
     color: var(--dark-blue);
@@ -59,6 +60,10 @@ img {
     margin-top: var(--flow-space, 1em);
 }
 
-div{
+div {
     padding-inline: 0.5rem;
+}
+
+.text {
+    margin-block-start: 1.5em;
 }
